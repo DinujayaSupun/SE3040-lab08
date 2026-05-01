@@ -33,3 +33,16 @@ It demonstrates basic React concepts such as components, props, and UI structuri
 ---
 
 ## 🧩 Components Structure
+src/
+├── components/
+│ ├── Greeting.jsx
+│ ├── NavBar.jsx
+│ ├── Footer.jsx
+│ ├── Card.jsx
+│ ├── Button.jsx
+│ ├── Banner.jsx
+│ └── Testimonial.jsx
+├── assets/
+│ └── user.jpg
+├── App.jsx
+└── main.jsx
