@@ -11,7 +11,6 @@ import Testimonial from './components/Testimonial';
 function App() {
   return (
     <div>
-      <h1>SE3040 Lab 08</h1>
 
       {/* Navigation Bar */}
       <NavBar />

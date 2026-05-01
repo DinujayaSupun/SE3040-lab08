@@ -3,7 +3,7 @@
 
 function Greeting() {
   return (
-    <h2>Hello World!</h2> // JSX element displaying greeting
+    <h2>Hello User👋!</h2> // JSX element displaying greeting
   );
 }
 

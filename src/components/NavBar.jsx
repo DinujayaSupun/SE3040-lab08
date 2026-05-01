@@ -1,18 +1,44 @@
 // NavBar component
-// This component displays a simple navigation menu
+// This component displays a styled navigation menu
 
 function NavBar() {
-    return (
-        <nav>
-            {/*Navigation List */}
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    );
+  return (
+    <nav
+      style={{
+        backgroundColor: "#1f2937",
+        padding: "15px 30px",
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+      }}
+    >
+      {/* Website / app logo text */}
+      <h2 style={{ color: "white", margin: 0 }}>SE3040 Lab 08</h2>
+
+      {/* Navigation links */}
+      <ul
+        style={{
+          listStyle: "none",
+          display: "flex",
+          gap: "25px",
+          margin: 0,
+          padding: 0,
+        }}
+      >
+        <li><a href="#" style={linkStyle}>Home</a></li>
+        <li><a href="#" style={linkStyle}>Products</a></li>
+        <li><a href="#" style={linkStyle}>Reviews</a></li>
+        <li><a href="#" style={linkStyle}>Contact</a></li>
+      </ul>
+    </nav>
+  );
 }
 
-export default NavBar; //Export Component so it can be used in other files
+// Common style object for navigation links
+const linkStyle = {
+  color: "white",
+  textDecoration: "none",
+  fontWeight: "500",
+};
+
+export default NavBar;
